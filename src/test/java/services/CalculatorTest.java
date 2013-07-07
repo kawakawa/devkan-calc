@@ -11,7 +11,7 @@ public class CalculatorTest {
     public void testAdd() {
         Calculator sut = new Calculator();
         String actual = sut.add(1,1);
-        assertThat(actual, is("2"));
+        assertThat(actual, is("20"));
     }
 	
 	
