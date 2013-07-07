@@ -10,8 +10,8 @@ public class CalculatorTest {
 	@Test
     public void testAdd() {
         Calculator sut = new Calculator();
-        String actual = sut.add(1,1);
-        assertThat(actual, is("20"));
+        String actual = sut.add(3,3);
+        assertThat(actual, is("6"));
     }
 	
 	
